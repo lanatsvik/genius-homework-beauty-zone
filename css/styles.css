@@ -92,6 +92,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Header section */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25),
+  inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -130,6 +143,12 @@ h1, h2, h3, h4, h5, h6, p {
 .hero-section {
   padding-top: 122px;
   padding-bottom: 126.5px;
+  background-image: linear-gradient(to right,rgba(255, 255, 255, 1) 10%,
+  rgba(255, 255, 255, 0.85) 26%,
+  rgba(255, 255, 255, 0.19) 53%,
+  rgba(255, 255, 255, 0) 74%), url('../images/hero-section-background.jpg');
+  background-repeat: no-repeat;
+  background-position: right top; 
 }
 
 .hero-title {
@@ -221,6 +240,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Contacts section */
+.contact-section {
+  padding-bottom: 94px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 32px;
+}
+
 .form-title {
   font-weight: 600;
   font-size: 22px;
@@ -241,6 +269,10 @@ h1, h2, h3, h4, h5, h6, p {
   /* color: var(--color-primary-light); */
   text-decoration: none;
   font-size: 16px;
+}
+
+.address-icon {
+  
 }
 
 .copyright-text {

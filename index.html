@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
       <div class="header-container">
         <nav class="header-nav">
@@ -25,20 +25,23 @@
           <ul class="header-menu">
             <li>
               <a href="tel:+380960000007">
-                <p>phn</p>
-                <!-- Phone icon -->
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <p>fb</p>
-                <!-- Facebook icon -->
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <p>inst</p>
-                <!-- Insta icon -->
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -111,14 +114,18 @@
     </div>
   </section>
 
-  <section class="section" id="contacts-section">
+  <section class="contact-section section" id="contacts-section">
     <div class="container">
       <h2 class="sections-title place">Як нас <span class="accent">знайти</span></h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.983338650975!2d30.772078507476493!3d50.506584954535185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMDc0MDA!5e0!3m2!1sru!2sde!4v1762293336209!5m2!1sru!2sde"
-        width="605" height="481" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <h3 class="form-title">Запишіться <span class="accent">безкоштовно</span> та отримайте подарунок</h3>
+        <div class="contact-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.983338650975!2d30.772078507476493!3d50.506584954535185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMDc0MDA!5e0!3m2!1sru!2sde!4v1762293336209!5m2!1sru!2sde"
+            width="605" height="481" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="contact-form">
+            <h3 class="form-title">Запишіться <span class="accent">безкоштовно</span> та отримайте подарунок</h3>
+          </div>
+        </div>
     </div>
   </section>
 
